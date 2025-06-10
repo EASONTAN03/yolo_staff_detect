@@ -1,7 +1,10 @@
-# Model Training in Colab: 
+# Staff Detection
+## Model Training in Colab: 
 https://colab.research.google.com/drive/1dIbm6Ld0lTjNXL67gQj5yiMSF4YMX_ye?usp=sharing
 
-# Files Information:
+## Project Organization
+
+```
 ├── README.md          <- The top-level README for developers using this project.
 ├── docs               <- Documentations
 │   ├── AI Evaluation Test.pdf       <- Test information.
@@ -13,8 +16,10 @@ https://colab.research.google.com/drive/1dIbm6Ld0lTjNXL67gQj5yiMSF4YMX_ye?usp=sh
 │   └── yolo_detect.py     <- Detection utils
 │ 
 └── .gitignore
+```
 
-# Deploying locally [Refference: https://github.com/EdjeElectronics/Train-and-Deploy-YOLO-Models]
+## Deploying locally 
+[Refference: https://github.com/EdjeElectronics/Train-and-Deploy-YOLO-Models]
 1. Unzip <my_model.zip> 
 2. Create python env:
     conda create --name yolo-env1 python=3.12 -y
