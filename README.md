@@ -35,7 +35,7 @@ https://colab.research.google.com/drive/1dIbm6Ld0lTjNXL67gQj5yiMSF4YMX_ye?usp=sh
 
         pip install --upgrade torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
    
-6. Locate the file: cd my_model
+6. Locate the file: ```cd my_model```
 7. Clone detection utils file created by Evan Juras, EJ Technology Consultants.
 - Add coordinates extraction function. 
 - Add bouding box comparison for staff detection: if box of staff_tag is inside box of staff then staff detected.
@@ -45,5 +45,5 @@ https://colab.research.google.com/drive/1dIbm6Ld0lTjNXL67gQj5yiMSF4YMX_ye?usp=sh
 
         python yolo_detect.py --model my_model.pt --source ../sample.mp4 --resolution 640x640 --coordinates True
 
-Demo of running the detection. 
+## Demo of running the detection
 [Demo_staff_detect](https://www.youtube.com/watch?v=6_Xb9QUhnJ8)
