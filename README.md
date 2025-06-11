@@ -21,7 +21,7 @@ https://colab.research.google.com/drive/1dIbm6Ld0lTjNXL67gQj5yiMSF4YMX_ye?usp=sh
 ## Deploying locally 
 [Refference](https://github.com/EdjeElectronics/Train-and-Deploy-YOLO-Models)
 
-        git clone https://github.com/EASONTAN03/FootFallCam_staff_detect
+        git clone https://github.com/EASONTAN03/FootfallCam_staff_detect
         
 1. Unzip <my_model.zip> 
 2. Create python env:
