@@ -20,6 +20,8 @@ https://colab.research.google.com/drive/1dIbm6Ld0lTjNXL67gQj5yiMSF4YMX_ye?usp=sh
 
 ## Deploying locally 
 [Refference](https://github.com/EdjeElectronics/Train-and-Deploy-YOLO-Models)
+
+git clone https://github.com/EASONTAN03/FootFallCam_staff_detect
 1. Unzip <my_model.zip> 
 2. Create python env:
 
@@ -36,14 +38,13 @@ https://colab.research.google.com/drive/1dIbm6Ld0lTjNXL67gQj5yiMSF4YMX_ye?usp=sh
         pip install --upgrade torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
    
 6. Locate the file: ```cd my_model```
-7. Clone detection utils file created by Evan Juras, EJ Technology Consultants.
+7. Modify detection utils file created by Evan Juras, EJ Technology Consultants. [yolo_detect.py]
 - Add coordinates extraction function. 
 - Add bouding box comparison for staff detection: if box of staff_tag is inside box of staff then staff detected.
+8. Detect objects for video:
   
-        curl -o yolo_detect.py https://raw.githubusercontent.com/EdjeElectronics/Train-and-Deploy-YOLO-Models/refs/heads/main/yolo_detect.py
-6. Detect objects in video: 
-
         python yolo_detect.py --model my_model.pt --source ../sample.mp4 --resolution 640x640 --coordinates True
+
 
 ## Demo of running the detection
 [Demo_staff_detect](https://www.youtube.com/watch?v=6_Xb9QUhnJ8)
