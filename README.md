@@ -23,13 +23,13 @@ https://colab.research.google.com/drive/1dIbm6Ld0lTjNXL67gQj5yiMSF4YMX_ye?usp=sh
 1. Unzip <my_model.zip> 
 2. Create python env:
 
-    conda create --name yolo-env1 python=3.12 -y
+        conda create --name yolo-env1 python=3.12 -y
 
-    conda activate yolo-env1
+        conda activate yolo-env1
    
 4. Install requirements:
    
-    pip install ultralytics
+        pip install ultralytics
    
     Install Nvidia GPU-enabled version of PyTorch by issuing the following command:
 
@@ -40,10 +40,10 @@ https://colab.research.google.com/drive/1dIbm6Ld0lTjNXL67gQj5yiMSF4YMX_ye?usp=sh
 - Add coordinates extraction function. 
 - Add bouding box comparison for staff detection: if box of staff_tag is inside box of staff then staff detected.
   
-curl -o yolo_detect.py https://raw.githubusercontent.com/EdjeElectronics/Train-and-Deploy-YOLO-Models/refs/heads/main/yolo_detect.py
+        curl -o yolo_detect.py https://raw.githubusercontent.com/EdjeElectronics/Train-and-Deploy-YOLO-Models/refs/heads/main/yolo_detect.py
 6. Detect objects in video: 
 
-python yolo_detect.py --model my_model.pt --source ../sample.mp4 --resolution 640x640 --coordinates True
+        python yolo_detect.py --model my_model.pt --source ../sample.mp4 --resolution 640x640 --coordinates True
 
 Demo of running the detection. 
 [Demo_staff_detect](https://www.youtube.com/watch?v=6_Xb9QUhnJ8)
