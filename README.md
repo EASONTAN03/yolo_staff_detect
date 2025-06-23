@@ -7,7 +7,6 @@ https://colab.research.google.com/drive/1dIbm6Ld0lTjNXL67gQj5yiMSF4YMX_ye?usp=sh
 ```
 ├── README.md          <- The top-level README for developers using this project.
 ├── docs               <- Documentations
-│   ├── AI Evaluation Test.pdf       <- Test information.
 │   └── Staff_Detect_Report.docx     <- Report of Model.
 │   
 ├── my_model           <- Directory of model, outputs
