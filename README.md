@@ -1,9 +1,17 @@
 # Staff Detection
+This project applies a YOLOv8-based deep learning model to detect staff members video footage using bounding box logic. It was trained on custom-labeled data with staff and tag annotations, and deployed with post-processing utilities for accurate staff detection in surveillance videos.
+
 ## Model Training in Colab: 
 https://colab.research.google.com/drive/1dIbm6Ld0lTjNXL67gQj5yiMSF4YMX_ye?usp=sharing
 
-## Project Organization
+## 🔧 Features
+- ✅ Trained YOLOv8 model for object detection
+- ✅ Bounding box comparison: staff vs staff_tag
+- ✅ Coordinate extraction from detection output
+- ✅ Easy deployment on local machine (GPU supported)
+- ✅ Google Colab notebook for reproducible training
 
+## 📁 Project Structure
 ```
 ├── README.md          <- The top-level README for developers using this project.
 ├── docs               <- Documentations
